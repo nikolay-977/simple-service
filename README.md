@@ -2,8 +2,8 @@
 ## Клонируйте репозиторий:
 
 ```bash
-git clone https://github.com/nikolay-977/go-simple-highload-service
-cd go-simple-highload-service
+git clone https://github.com/nikolay-977/simple-service
+cd simple-service
 ```
 
 # Запуск приложения в Docker
