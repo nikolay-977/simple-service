@@ -1,0 +1,144 @@
+# k8s/prometheus.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: prometheus-config
+  namespace: monitoring
+data:
+  prometheus.yml: |
+    global:
+      scrape_interval: 15s
+      evaluation_interval: 15s
+    
+    # Только правила алертов, без Alertmanager
+    rule_files:
+      - /etc/prometheus/rules/*.yml
+    
+    scrape_configs:
+      - job_name: 'simple-service'
+        static_configs:
+          - targets: ['simple-service.default.svc.cluster.local:8080']
+        metrics_path: /metrics/prometheus
+        scrape_interval: 15s
+
+---
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: prometheus-rules
+  namespace: monitoring
+data:
+  simple-service-rules.yml: |
+    groups:
+      - name: simple-service-rules
+        rules:
+          # Алерт: сервис недоступен
+          - alert: ServiceDown
+            expr: up{job="simple-service"} == 0
+            for: 30s
+            labels:
+              severity: critical
+              service: simple-service
+            annotations:
+              summary: "Simple Service недоступен"
+              description: "Сервис {{ $labels.instance }} недоступен более 30 секунд"
+          
+          # Алерт: высокая задержка (P95 > 500ms)
+          - alert: HighLatency
+            expr: histogram_quantile(0.95, sum(rate(simple_service_http_request_duration_seconds_bucket[5m])) by (le)) * 1000 > 500
+            for: 2m
+            labels:
+              severity: warning
+              service: simple-service
+            annotations:
+              summary: "Высокая задержка обработки"
+              description: "P95 latency {{ $value | humanize }}ms превышает порог 500ms"
+          
+          # Алерт: высокий RPS (> 1000)
+          - alert: HighRPS
+            expr: sum(rate(simple_service_http_requests_total[5m])) > 1000
+            for: 5m
+            labels:
+              severity: warning
+              service: simple-service
+            annotations:
+              summary: "Высокий уровень запросов"
+              description: "RPS {{ $value | humanize }} превышает порог 1000"
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: prometheus
+  namespace: monitoring
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: prometheus
+  template:
+    metadata:
+      labels:
+        app: prometheus
+    spec:
+      containers:
+        - name: prometheus
+          image: prom/prometheus:v2.45.0
+          args:
+            - "--config.file=/etc/prometheus/prometheus.yml"
+            - "--storage.tsdb.path=/prometheus"
+            - "--web.enable-lifecycle"
+            - "--web.enable-admin-api"
+          ports:
+            - containerPort: 9090
+              name: http
+          volumeMounts:
+            - name: config
+              mountPath: /etc/prometheus
+            - name: rules
+              mountPath: /etc/prometheus/rules
+            - name: data
+              mountPath: /prometheus
+          resources:
+            requests:
+              memory: "256Mi"
+              cpu: "100m"
+          livenessProbe:
+            httpGet:
+              path: /-/healthy
+              port: 9090
+            initialDelaySeconds: 30
+            periodSeconds: 10
+          readinessProbe:
+            httpGet:
+              path: /-/ready
+              port: 9090
+            initialDelaySeconds: 5
+            periodSeconds: 5
+      volumes:
+        - name: config
+          configMap:
+            name: prometheus-config
+        - name: rules
+          configMap:
+            name: prometheus-rules
+        - name: data
+          emptyDir: {}
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: prometheus
+  namespace: monitoring
+spec:
+  selector:
+    app: prometheus
+  ports:
+    - name: http
+      port: 9090
+      targetPort: 9090
+  type: NodePort
