@@ -1,0 +1,383 @@
+[2025-12-28 11:31:27,097] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 11:31:27,099] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 60 seconds
+[2025-12-28 11:31:27,099] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 10 users at a rate of 1.00 per second
+[2025-12-28 11:31:36,104] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 10} (10 total users)
+[2025-12-28 11:32:26,959] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 11:32:26,993] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 11:32:26,994] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 11:32:52,136] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 11:32:52,138] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 60 seconds
+[2025-12-28 11:32:52,138] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 10 users at a rate of 1.00 per second
+[2025-12-28 11:33:01,145] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 10} (10 total users)
+[2025-12-28 11:33:24,282] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 11:33:24,283] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 60 seconds
+[2025-12-28 11:33:24,283] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 1 users at a rate of 1.00 per second
+[2025-12-28 11:33:24,284] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 1} (1 total users)
+[2025-12-28 11:33:51,984] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 11:33:52,019] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 11:33:52,019] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 11:34:24,128] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 11:34:24,174] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 11:34:24,175] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 11:36:50,310] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 11:36:50,312] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 10 seconds
+[2025-12-28 11:36:50,313] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 20.00 per second
+[2025-12-28 11:36:54,317] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 11:37:00,157] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 11:37:00,206] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 11:37:00,207] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 11:37:26,899] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 11:37:26,901] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 10 seconds
+[2025-12-28 11:37:26,902] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 10 users at a rate of 2.00 per second
+[2025-12-28 11:37:30,909] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 10} (10 total users)
+[2025-12-28 11:37:36,733] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 11:37:36,796] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 11:37:36,797] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 11:37:43,116] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 11:37:43,117] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 20 seconds
+[2025-12-28 11:37:43,118] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 10 users at a rate of 2.00 per second
+[2025-12-28 11:37:47,128] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 10} (10 total users)
+[2025-12-28 11:38:02,979] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 11:38:03,040] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 11:38:03,041] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 11:38:10,024] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 11:38:10,025] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 20 seconds
+[2025-12-28 11:38:10,025] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 20.00 per second
+[2025-12-28 11:38:14,032] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 11:38:29,898] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 11:38:29,954] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 11:38:29,955] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 11:40:09,576] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 11:40:09,578] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 60 seconds
+[2025-12-28 11:40:09,578] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 11:40:18,588] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 11:41:09,430] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 11:41:09,474] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 11:41:09,475] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 11:51:03,809] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 11:51:03,811] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 60 seconds
+[2025-12-28 11:51:03,811] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 11:51:12,821] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 11:52:03,656] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 11:52:03,694] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 11:52:03,695] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 1)
+[2025-12-28 11:54:14,102] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 11:54:14,104] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 60 seconds
+[2025-12-28 11:54:14,104] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 11:54:23,116] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 11:54:40,531] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 11:54:40,534] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 60 seconds
+[2025-12-28 11:54:40,534] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 11:54:49,547] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 11:55:40,378] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 11:55:40,441] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 11:55:40,442] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 11:57:34,018] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 11:57:34,020] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 60 seconds
+[2025-12-28 11:57:34,021] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 10 users at a rate of 2.00 per second
+[2025-12-28 11:57:38,032] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 10} (10 total users)
+[2025-12-28 11:58:33,851] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 11:58:33,919] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 11:58:33,920] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 11:58:38,657] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 11:58:38,658] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 60 seconds
+[2025-12-28 11:58:38,659] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 11:58:47,671] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 11:59:38,522] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 11:59:38,577] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 11:59:38,578] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 12:05:57,410] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 12:05:57,412] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 60 seconds
+[2025-12-28 12:05:57,413] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 12:05:59,494] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 12:05:59,495] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 60 seconds
+[2025-12-28 12:05:59,495] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 12:06:08,505] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 12:06:59,413] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 12:06:59,474] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 12:06:59,475] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 12:07:43,949] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 12:07:43,951] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 60 seconds
+[2025-12-28 12:07:43,952] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 12:07:52,958] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 12:08:43,800] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 12:08:43,847] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 12:08:43,848] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 12:10:25,917] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 12:10:25,918] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 60 seconds
+[2025-12-28 12:10:25,919] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 12:10:34,933] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 12:11:25,755] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 12:11:25,798] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 12:11:25,799] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 12:35:50,315] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 12:35:50,317] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 60 seconds
+[2025-12-28 12:35:50,317] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 10 users at a rate of 1.00 per second
+[2025-12-28 12:35:59,336] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 10} (10 total users)
+[2025-12-28 12:36:42,420] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 12:36:42,421] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 60 seconds
+[2025-12-28 12:36:42,422] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 10 users at a rate of 1.00 per second
+[2025-12-28 12:36:51,436] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 10} (10 total users)
+[2025-12-28 12:39:08,517] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 12:39:08,518] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 60 seconds
+[2025-12-28 12:39:08,519] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 10 users at a rate of 1.00 per second
+[2025-12-28 12:39:17,535] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 10} (10 total users)
+[2025-12-28 12:39:47,524] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 12:39:47,525] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 60 seconds
+[2025-12-28 12:39:47,525] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 10 users at a rate of 1.00 per second
+[2025-12-28 12:39:56,535] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 10} (10 total users)
+[2025-12-28 12:40:47,389] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 12:40:47,452] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 12:40:47,452] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 12:41:04,567] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 12:41:04,568] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 60 seconds
+[2025-12-28 12:41:04,569] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 12:41:13,587] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 12:42:04,422] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 12:42:04,474] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 12:42:04,475] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 12:42:42,934] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 12:42:42,936] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 60 seconds
+[2025-12-28 12:42:42,936] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 12:42:51,966] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 12:43:17,640] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 12:43:17,641] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 60 seconds
+[2025-12-28 12:43:17,641] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 12:43:26,652] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 12:44:17,514] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 12:44:17,563] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 12:44:17,565] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 12:44:25,452] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 12:44:25,454] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 60 seconds
+[2025-12-28 12:44:25,455] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 12:44:34,466] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 12:45:25,320] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 12:45:25,368] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 12:45:25,369] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 12:45:57,452] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 12:45:57,454] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 60 seconds
+[2025-12-28 12:45:57,454] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 12:46:06,470] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 12:46:57,311] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 12:46:57,363] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 12:46:57,364] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 12:48:22,108] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 12:48:22,110] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 60 seconds
+[2025-12-28 12:48:22,110] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 12:48:31,122] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 12:49:00,451] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 12:49:00,453] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 60 seconds
+[2025-12-28 12:49:00,453] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 10 users at a rate of 1.00 per second
+[2025-12-28 12:49:09,478] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 10} (10 total users)
+[2025-12-28 12:50:00,314] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 12:50:00,370] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 12:50:00,372] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 12:59:49,156] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 12:59:49,159] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 60 seconds
+[2025-12-28 12:59:49,159] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 10 users at a rate of 1.00 per second
+[2025-12-28 12:59:58,170] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 10} (10 total users)
+[2025-12-28 13:00:53,472] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 13:00:53,474] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 60 seconds
+[2025-12-28 13:00:53,474] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 13:01:02,484] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 13:01:53,329] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 13:01:53,375] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 13:01:53,376] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 13:02:28,444] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 13:02:28,446] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 120 seconds
+[2025-12-28 13:02:28,446] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 13:02:37,455] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 13:04:26,317] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 13:04:26,319] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 120 seconds
+[2025-12-28 13:04:26,319] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 13:04:34,544] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 13:04:34,545] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 120 seconds
+[2025-12-28 13:04:34,545] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 13:04:46,949] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 13:04:46,951] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 120 seconds
+[2025-12-28 13:04:46,952] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 13:04:55,960] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 13:06:46,821] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 13:06:46,873] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 13:06:46,874] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 13:13:46,193] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 13:13:46,195] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 120 seconds
+[2025-12-28 13:13:46,195] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 1.00 per second
+[2025-12-28 13:14:14,337] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 13:14:14,339] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 120 seconds
+[2025-12-28 13:14:14,339] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 1.00 per second
+[2025-12-28 13:15:53,515] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 13:16:14,190] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 13:16:14,246] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 13:16:14,246] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 13:17:57,809] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 13:17:57,811] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 120 seconds
+[2025-12-28 13:17:57,811] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 1.00 per second
+[2025-12-28 13:19:36,960] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 13:19:57,656] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 13:19:57,708] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 13:19:57,710] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 13:27:31,903] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 13:27:31,905] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 120 seconds
+[2025-12-28 13:27:31,906] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 1.00 per second
+[2025-12-28 13:29:11,043] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 13:29:31,747] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 13:29:31,791] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 13:29:31,792] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 13:30:03,422] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 13:30:03,424] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 120 seconds
+[2025-12-28 13:30:03,425] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 1.00 per second
+[2025-12-28 13:31:42,582] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 13:32:03,265] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 13:32:03,322] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 13:32:03,323] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 13:35:18,810] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 13:35:18,811] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 120 seconds
+[2025-12-28 13:35:18,812] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 1.00 per second
+[2025-12-28 13:36:57,941] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 13:37:18,662] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 13:37:18,713] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 13:37:18,714] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 13:37:50,279] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 13:37:50,281] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 120 seconds
+[2025-12-28 13:37:50,281] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 1.00 per second
+[2025-12-28 13:39:29,399] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 13:39:50,135] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 13:39:50,182] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 13:39:50,183] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 13:40:31,617] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 13:40:31,618] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 120 seconds
+[2025-12-28 13:40:31,619] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 1.00 per second
+[2025-12-28 13:40:45,400] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 13:40:45,401] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 120 seconds
+[2025-12-28 13:40:45,402] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 1.00 per second
+[2025-12-28 13:42:24,769] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 13:42:45,272] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 13:42:45,318] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 13:42:45,319] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 13:47:06,543] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 13:47:06,545] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 120 seconds
+[2025-12-28 13:47:06,545] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 1.00 per second
+[2025-12-28 13:47:18,592] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 13:47:18,593] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 120 seconds
+[2025-12-28 13:47:18,594] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 1.00 per second
+[2025-12-28 13:48:57,742] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 13:49:18,467] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 13:49:18,521] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 13:49:18,522] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 14:09:41,587] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 14:09:41,588] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 120 seconds
+[2025-12-28 14:09:41,589] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 1.00 per second
+[2025-12-28 14:11:20,894] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 14:11:41,436] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 14:11:41,496] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 14:11:41,496] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 14:16:29,424] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 14:16:29,426] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 120 seconds
+[2025-12-28 14:16:29,426] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 1.00 per second
+[2025-12-28 14:18:08,556] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 14:18:29,274] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 14:18:29,329] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 14:18:29,330] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 14:37:23,586] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 14:37:23,588] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 120 seconds
+[2025-12-28 14:37:23,588] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 14:37:32,598] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 14:39:23,434] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 14:39:23,484] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 14:39:23,485] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 14:39:48,701] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 14:39:48,703] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 120 seconds
+[2025-12-28 14:39:48,703] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 14:39:57,738] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 14:41:04,439] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 14:41:04,440] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 120 seconds
+[2025-12-28 14:41:04,440] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 14:41:13,454] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 14:43:04,297] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 14:43:04,348] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 14:43:04,349] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 14:45:09,859] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 14:45:09,862] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 120 seconds
+[2025-12-28 14:45:09,862] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 14:45:18,873] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 14:47:09,703] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 14:47:09,760] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 14:47:09,761] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 14:52:25,723] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 14:52:25,725] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 120 seconds
+[2025-12-28 14:52:25,725] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 14:52:39,848] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 14:52:39,849] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 120 seconds
+[2025-12-28 14:52:39,849] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 14:52:48,861] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 14:54:39,723] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 14:54:39,777] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 14:54:39,778] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 15:00:52,578] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 15:00:52,580] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 120 seconds
+[2025-12-28 15:00:52,580] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 15:01:01,589] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 15:01:34,227] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 15:01:34,228] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 120 seconds
+[2025-12-28 15:01:34,229] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 15:01:43,241] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 15:03:34,081] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 15:03:34,131] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 15:03:34,132] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 15:04:57,941] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 15:04:57,943] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 120 seconds
+[2025-12-28 15:04:57,944] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 15:05:06,956] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 15:06:57,790] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 15:06:57,853] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 15:06:57,855] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 15:09:22,738] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 15:09:22,739] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 120 seconds
+[2025-12-28 15:09:22,740] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 15:09:31,754] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 15:11:22,591] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 15:11:22,649] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 15:11:22,650] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 15:19:18,142] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 15:19:18,145] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 120 seconds
+[2025-12-28 15:19:18,145] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 15:19:27,155] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 15:21:17,990] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 15:21:18,050] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 15:21:18,051] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 15:25:16,697] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 15:25:16,699] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 120 seconds
+[2025-12-28 15:25:16,699] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2025-12-28 15:25:25,708] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 100} (100 total users)
+[2025-12-28 15:27:16,541] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 15:27:16,591] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 15:27:16,592] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 15:31:31,814] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 15:31:31,816] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 300 seconds
+[2025-12-28 15:31:31,817] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 200 users at a rate of 1.00 per second
+[2025-12-28 15:34:51,299] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 200} (200 total users)
+[2025-12-28 15:36:31,666] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 15:36:31,707] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 15:36:31,708] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 15:38:03,411] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 15:38:03,413] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 300 seconds
+[2025-12-28 15:38:03,414] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 150 users at a rate of 10.00 per second
+[2025-12-28 15:38:17,423] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 150} (150 total users)
+[2025-12-28 15:43:03,261] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 15:43:03,306] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 15:43:03,307] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 15:46:29,302] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 15:46:29,304] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 300 seconds
+[2025-12-28 15:46:29,305] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 150 users at a rate of 10.00 per second
+[2025-12-28 15:46:43,321] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 150} (150 total users)
+[2025-12-28 15:51:29,160] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 15:51:29,207] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 15:51:29,208] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)
+[2025-12-28 16:02:18,903] MacBook-Pro-Nikolay/INFO/locust.main: Starting Locust 2.42.6
+[2025-12-28 16:02:18,906] MacBook-Pro-Nikolay/INFO/locust.main: Run time limit set to 300 seconds
+[2025-12-28 16:02:18,906] MacBook-Pro-Nikolay/INFO/locust.runners: Ramping to 150 users at a rate of 10.00 per second
+[2025-12-28 16:02:32,921] MacBook-Pro-Nikolay/INFO/locust.runners: All users spawned: {"MetricsUser": 150} (150 total users)
+[2025-12-28 16:07:18,698] MacBook-Pro-Nikolay/INFO/locust.main: --run-time limit reached, shutting down
+[2025-12-28 16:07:18,745] MacBook-Pro-Nikolay/INFO/locust.main: writing html report to file: locust_report.html
+[2025-12-28 16:07:18,746] MacBook-Pro-Nikolay/INFO/locust.main: Shutting down (exit code 0)

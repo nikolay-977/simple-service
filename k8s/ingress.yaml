@@ -1,0 +1,65 @@
+# k8s/ingress.yaml
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: simple-service-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/use-regex: "true"
+    nginx.ingress.kubernetes.io/rewrite-target: /$1
+
+    # Настройки прокси
+    nginx.ingress.kubernetes.io/proxy-body-size: "10m"
+    nginx.ingress.kubernetes.io/proxy-read-timeout: "60"
+    nginx.ingress.kubernetes.io/proxy-send-timeout: "60"
+
+    # Rate limiting для POST /metrics
+    nginx.ingress.kubernetes.io/limit-rps: "100"
+    nginx.ingress.kubernetes.io/limit-whitelist: "10.0.0.0/8,192.168.0.0/16"
+spec:
+  rules:
+    - host: simple-service.local
+      http:
+        paths:
+          # Health check
+          - path: /health
+            pathType: Exact
+            backend:
+              service:
+                name: simple-service
+                port:
+                  number: 8080
+
+          # Метрики Prometheus (GET только для мониторинга)
+          - path: /metrics/prometheus
+            pathType: Exact
+            backend:
+              service:
+                name: simple-service
+                port:
+                  number: 8080
+
+          # Аналитика (GET запросы)
+          - path: /analytics
+            pathType: Prefix
+            backend:
+              service:
+                name: simple-service
+                port:
+                  number: 8080
+
+          # Прием метрик (POST запросы)
+          - path: /metrics
+            pathType: Exact
+            backend:
+              service:
+                name: simple-service
+                port:
+                  number: 8080
+
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: simple-service
+                port:
+                  number: 8080
